@@ -1,0 +1,4 @@
+{{!{{log 'cookie / moja nazwa, może być nawet bez' cookie.base}}
+{{# with cookie}}
+<div class="cookie-preview" style="background: {{#each addons}}url('/assets/img/{{this}}.png'),{{/each}} url('/assets/img/empty-{{base}}.png')"></div>
+{{/with}}

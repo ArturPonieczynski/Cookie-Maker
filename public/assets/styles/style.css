@@ -1,0 +1,28 @@
+.cookie-preview {
+    height: 600px;
+    width: 600px;
+}
+
+p.logo {
+    display: block;
+    text-align: center;
+}
+
+img.main {
+    display: block;
+    height: 20vh;
+    margin: 0 auto;
+}
+
+.error {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 20px;
+    background: #f39c9c;
+}
+
+.trolley-img {
+    display: block;
+    width: 50px;
+}

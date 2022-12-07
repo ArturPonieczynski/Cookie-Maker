@@ -1,0 +1,11 @@
+<h3>Selected toppings</h3>
+
+<ul>
+    <li>Base: {{cookie.base}} - {{precify (find-price bases cookie.base)}} PLN</li>
+    {{#each cookie.addons}}
+        <li>Topping: {{this}} - {{precify (find-price @root.addons this)}} PLN {{#unless ../noDeleteButton}}<a href="/configurator/delete-addon/{{this}}" class="button">Delete</a>{{/unless}}</li>
+    {{/each}}
+</ul>
+<p>
+    <strong>Total: {{precify sum}} PLN</strong>
+</p>
